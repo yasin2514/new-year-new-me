@@ -9,7 +9,7 @@
 /* header-start */
 header {
     background-image: url("../images/banner/banner3.png");
-    height: 110vh;
+    height: 100vh;
     background-size: cover;
     width: 100%;
     display: flex;
@@ -107,15 +107,51 @@ main {
     color: #16D887;
     margin-right: 5px;
 }
+
 /* custom-success-section */
-.success-year{
+.success-year {
     margin-top: 100px;
     margin-bottom: 100px;
 
 }
-.success-description{
+
+.success-description {
     order: 1;
 }
-.success-img{
+
+.success-img {
     order: 2;
+}
+
+/* plan-section */
+.plan {
+    text-align: center;
+    margin: 0px 150px 100px 150px;
+
+}
+
+.plan-cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+
+}
+.card-title{
+    font-size: 28px;
+    font-weight: 700px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #151414;
+}
+.card-text{
+    font-size: 18px;
+    line-height: 24px;
+    color: #737272;
 }
