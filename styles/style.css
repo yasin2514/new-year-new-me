@@ -44,16 +44,29 @@ header {
 .btn {
     font-size: 20px;
     font-weight: 600;
-    color: #005FAC;
     padding: 15px 25px;
     border: 0;
     border-radius: 5px;
+}
+
+.btn-primary {
+    color: #005FAC;
     background-color: white;
 }
 
-.btn:hover {
+.btn-secondary {
+    color: white;
+    background-color: #005FAC;
+}
+
+.btn-primary:hover {
     color: #014e8e;
     background-color: #d4d4d4;
+}
+
+.btn-secondary:hover {
+    color: rgb(225, 223, 223);
+    background-color: #004b89;
 }
 
 /* banner-end */
@@ -160,7 +173,7 @@ main {
 
 /* call-now-section */
 .call-now {
-    margin: 0px 150px 100px 150px;
+    margin: 0px 150px;
     padding: 60px 60px;
     background-image: url("../images/watch.png"), linear-gradient(to right, #015fabf7 10%, rgba(0, 95, 172, 0.162) 100%);
     background-blend-mode: soft-light;
@@ -176,3 +189,71 @@ main {
     margin-bottom: 25px;
 
 }
+
+/* main-end */
+/* footer-start */
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 150px;
+}
+
+.footer-future {
+    width: 50%;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #F8F8F8;
+
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 10px
+}
+
+.social {
+    margin-top: 25px;
+}
+
+.social a {
+    text-decoration: none;
+    margin-right: 7px;
+}
+
+.social img {
+    width: 7%;
+}
+
+.footer-subscribe {
+    width: 40%;
+}
+
+.footer-subtitle {
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+
+}
+
+input {
+    display: block;
+    margin: 20px 0px;
+    height: 45px;
+    padding: 0px 10px;
+    width: 90%;
+    font-size: 16px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    color: #F3F3F3;
+    background-color: black;
+}
+
+/* footer-end */
