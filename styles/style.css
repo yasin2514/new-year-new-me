@@ -107,3 +107,15 @@ main {
     color: #16D887;
     margin-right: 5px;
 }
+/* custom-success-section */
+.success-year{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.success-description{
+    order: 1;
+}
+.success-img{
+    order: 2;
+}
