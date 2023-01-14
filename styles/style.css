@@ -250,9 +250,9 @@ input {
 
 
 /* responsive for tablet */
-@media only screen and (max-width:992px) {
+@media only screen and (max-width:1050px) {
     header {
-        height: 50vh;
+        height: 70vh;
     }
 
     .banner-section {
