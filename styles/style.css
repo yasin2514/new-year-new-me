@@ -144,7 +144,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25%;
+    width: 100%;
 
 }
 
@@ -189,10 +189,11 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 100px 150px;
+    gap: 50px;
 }
 
 .footer-future {
-    width: 50%;
+    width: 100%;
 }
 
 .footer-title {
@@ -224,7 +225,7 @@ footer {
 }
 
 .footer-subscribe {
-    width: 40%;
+    width: 100%;
 }
 
 .footer-subtitle {
@@ -249,32 +250,73 @@ input {
 
 /* footer-end */
 /* hide */
-.hide{
+.hide {
     display: none;
 }
+
 /* responsive for tablet */
 @media only screen and (max-width:992px) {
     header {
         height: 50vh;
     }
+
     .banner-section {
         width: 90%;
         text-align: center;
-        margin:0 auto;
+        margin: 0 auto;
         color: #FFFFFF;
     }
+
     .previous-year-section {
-        margin:50px 30px;
+        margin: 50px 30px;
     }
+
     .plan {
         text-align: center;
         margin: 100px 50px;
     }
+
+    .plan-cards {
+        flex-wrap: wrap;
+    }
+
     .call-now {
         margin: 0px 30px;
+        padding: 20px;
     }
+
     footer {
         padding: 40px 30px;
+        gap: 30px;
+    }
+
+}
+
+/* responsive for mobile device */
+@media only screen and (max-width:576px) {
+    header {
+        height: 80vh;
+    }
+
+    .previous-year-section {
+        margin: 50px 30px;
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    .call-now {
+        padding: 15px;
+    }
+
+    .call-now-title {
+        font-size: 30px;
+
+    }
+
+    footer {
+        padding: 20px 30px;
+        flex-direction: column-reverse;
+        align-items: center;
     }
 
 }
